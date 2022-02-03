@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -342584445,
-        "Kind": "Components.Component",
-        "Name": "PipWebsite.Pages.Index",
-        "AssemblyName": "PipWebsite",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PipWebsite.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1372380949,
-        "Kind": "Components.Component",
-        "Name": "PipWebsite.Pages.Index",
-        "AssemblyName": "PipWebsite",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PipWebsite.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PipWebsite.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -708361644,
         "Kind": "Components.Component",
         "Name": "PipWebsite.Pages.Counter",
@@ -111,35 +78,68 @@
         }
       },
       {
-        "HashCode": -801831808,
+        "HashCode": -342584445,
         "Kind": "Components.Component",
-        "Name": "PipWebsite.Shared.NavMenu",
+        "Name": "PipWebsite.Pages.Index",
         "AssemblyName": "PipWebsite",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PipWebsite.Shared.NavMenu"
+          "Common.TypeName": "PipWebsite.Pages.Index"
         }
       },
       {
-        "HashCode": -1190590951,
+        "HashCode": -1372380949,
         "Kind": "Components.Component",
-        "Name": "PipWebsite.Shared.NavMenu",
+        "Name": "PipWebsite.Pages.Index",
         "AssemblyName": "PipWebsite",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "PipWebsite.Shared.NavMenu"
+            "TagName": "PipWebsite.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PipWebsite.Shared.NavMenu",
+          "Common.TypeName": "PipWebsite.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 285062916,
+        "Kind": "Components.Component",
+        "Name": "PipWebsite.App",
+        "AssemblyName": "PipWebsite",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PipWebsite.App"
+        }
+      },
+      {
+        "HashCode": -739981801,
+        "Kind": "Components.Component",
+        "Name": "PipWebsite.App",
+        "AssemblyName": "PipWebsite",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PipWebsite.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PipWebsite.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -293,35 +293,104 @@
         }
       },
       {
-        "HashCode": 285062916,
+        "HashCode": -801831808,
         "Kind": "Components.Component",
-        "Name": "PipWebsite.App",
+        "Name": "PipWebsite.Shared.NavMenu",
         "AssemblyName": "PipWebsite",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PipWebsite.App"
+          "Common.TypeName": "PipWebsite.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -739981801,
+        "HashCode": -1190590951,
         "Kind": "Components.Component",
-        "Name": "PipWebsite.App",
+        "Name": "PipWebsite.Shared.NavMenu",
         "AssemblyName": "PipWebsite",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "PipWebsite.App"
+            "TagName": "PipWebsite.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PipWebsite.App",
+          "Common.TypeName": "PipWebsite.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 140052454,
+        "Kind": "Components.Component",
+        "Name": "BlazorTypewriter.Typewriter",
+        "AssemblyName": "BlazorTypewriter",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Typewriter"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Builder",
+            "TypeName": "BlazorTypewriter.TypewriterBuilder",
+            "Metadata": {
+              "Common.PropertyName": "Builder"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "CustomClass"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorTypewriter.Typewriter"
+        }
+      },
+      {
+        "HashCode": 329856345,
+        "Kind": "Components.Component",
+        "Name": "BlazorTypewriter.Typewriter",
+        "AssemblyName": "BlazorTypewriter",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorTypewriter.Typewriter"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Builder",
+            "TypeName": "BlazorTypewriter.TypewriterBuilder",
+            "Metadata": {
+              "Common.PropertyName": "Builder"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "CustomClass"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorTypewriter.Typewriter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -4869,75 +4938,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 140052454,
-        "Kind": "Components.Component",
-        "Name": "BlazorTypewriter.Typewriter",
-        "AssemblyName": "BlazorTypewriter",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Typewriter"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Builder",
-            "TypeName": "BlazorTypewriter.TypewriterBuilder",
-            "Metadata": {
-              "Common.PropertyName": "Builder"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "CustomClass",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "CustomClass"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorTypewriter.Typewriter"
-        }
-      },
-      {
-        "HashCode": 329856345,
-        "Kind": "Components.Component",
-        "Name": "BlazorTypewriter.Typewriter",
-        "AssemblyName": "BlazorTypewriter",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorTypewriter.Typewriter"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Builder",
-            "TypeName": "BlazorTypewriter.TypewriterBuilder",
-            "Metadata": {
-              "Common.PropertyName": "Builder"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "CustomClass",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "CustomClass"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorTypewriter.Typewriter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

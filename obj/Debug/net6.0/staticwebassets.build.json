@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jlzJ7eQTBMux5/lr6yopGzUvdxiaQ4ku/quRwpX+v6g=",
+  "Hash": "tV5A/cxgmBkFzStGXeL7YKAz30dVzgVMNfTVHmIyIWs=",
   "Source": "PipWebsite",
   "BasePath": "_content/PipWebsite",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\lenovo\\.nuget\\packages\\blazortypewriter\\1.1.0\\staticwebassets\\styles.css",
+      "SourceId": "BlazorTypewriter",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\lenovo\\.nuget\\packages\\blazortypewriter\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/BlazorTypewriter",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lenovo\\.nuget\\packages\\blazortypewriter\\1.1.0\\staticwebassets\\styles.css"
+    },
     {
       "Identity": "C:\\Users\\lenovo\\Documents\\PipWebsite\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PipWebsite.styles.css",
       "SourceId": "PipWebsite",

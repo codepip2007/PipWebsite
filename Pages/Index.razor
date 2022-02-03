@@ -1,6 +1,32 @@
-﻿@page "/"
+﻿<link href="_content/BlazorTypewriter/styles.css" rel="stylesheet" />
+@using BlazorTypewriter
+@page "/"
 
 <PageTitle>Home</PageTitle>
 
 <h1 class="exo4">Hello World!</h1>
+<br>
+<h2 class="exo4">I am <Typewriter Builder="@typewriter"/></h2>
 
+<p class="exo4">Hello World! I am Pepijn Colenbrander. Born Dutch raised in the Philippines. I am an aviation enthousiast. My favorite aircraft is the Airbus A350. 
+    I am a developer. I code in JavaScript, HTML, CSS, and C#. Welcome to my website! Here you can find all my work. You can find your way around my website using the 
+    navigation bar on the left! For any questions or inquiries, us the contact me page! Enjoy!
+</p>
+<h4 class="exo4">Daily Quote:</h4>
+<p class="exo4">If you want the rainbow, you gotta put up with the rain.</p>
+<p class="exo4" style="font-size: 10px;">For quote submissions, please us the contact me page.</p>
+
+@code {
+    TypewriterBuilder typewriter = new TypewriterBuilder(defaultCharacterPause: 6)
+        .TypeString("Pepijn Colenbrander.", 70)
+        .Pause(1000)
+        .DeleteAll(10)
+        .TypeString("a developer.", 50)
+        .Pause(500)
+        .DeleteAll(30)
+        .TypeString("an aviation enthousiast.", 20)
+        .Pause(500)
+        .DeleteAll(20)
+        .Pause(500)
+        .Loop();
+}

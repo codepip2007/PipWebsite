@@ -26,3 +26,5 @@ C:\Users\lenovo\Documents\PipWebsite\obj\Debug\net6.0\ref\PipWebsite.dll
 C:\Users\lenovo\Documents\PipWebsite\obj\Debug\net6.0\PipWebsite.pdb
 C:\Users\lenovo\Documents\PipWebsite\obj\Debug\net6.0\PipWebsite.genruntimeconfig.cache
 C:\Users\lenovo\Documents\PipWebsite\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\lenovo\Documents\PipWebsite\bin\Debug\net6.0\BlazorTypewriter.dll
+C:\Users\lenovo\Documents\PipWebsite\obj\Debug\net6.0\PipWebsite.csproj.CopyComplete
